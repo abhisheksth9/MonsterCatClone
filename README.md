@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# About this Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Monstercat Clone using React as a framework and Embla Carousel as the library
 
-## Available Scripts
+## Features
+- Autoplay<br>
+- Swipe/drag support<br>
+- Previous/Next Button<br>
+- Custom navigation bar that can be closed and opened<br>
+- Modern Design with minimalistic typography and animations
 
-In the project directory, you can run:
+## Embla Carousel
+Embla Carousel is a lightweight yet powerful carousel library. It was used to recreate the smooth slider effect on Monstercat’s website, including the autoplay functionality and the previous/next buttons. <br>
 
-### `npm start`
+## Few Design Compromises
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- As the font was lisenced and paid, similar font 'Monument Extended' was used. <br>
+- Logo used are not exactly the same. The logos were not easily available.  <br>
+- Monstercat player app logo was not used in the socials section.  <br>
+- Progress bar animation was not achieved. <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1) Cloning the Repo: <br>
+   ```bash
+     git clone https://github.com/abhisheksth9/MonsterCatClone.gitt
+     cd MonsterCatClone
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2) Install dependencies: <br>
+    ```bash
+      npm install
+    ```
 
-### `npm run build`
+3) Run the App:
+   ```bash
+     npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4) Project will open at : http://localhost:3000
