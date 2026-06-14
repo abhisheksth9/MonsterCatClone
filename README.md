@@ -30,6 +30,8 @@ Embla Carousel is a lightweight yet powerful carousel library. It was used to re
 2) Install dependencies: <br>
     ```bash
       npm install
+      npm install embla-carousel-react
+      npm install embla-carousel-autoplay
     ```
 
 3) Run the App:
