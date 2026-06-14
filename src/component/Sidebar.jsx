@@ -10,9 +10,9 @@ function Sidebar() {
             <div className="sidebar-header">
                 {isOpen ? (
                     <>
-                        <img src="/logo/Monstercattext.png" alt="monstercat" className="logo" />
+                        <img src={`${process.env.PUBLIC_URL}/logo/Monstercattext.png`} alt="monstercat" className="logo" />
                         <img
-                            src="/logo/close.png"
+                            src={`${process.env.PUBLIC_URL}/logo/close.png`}
                             alt="Close"
                             className="close-icon"
                             onClick={() => setIsOpen(false)}
@@ -20,7 +20,7 @@ function Sidebar() {
                     </>
                 ) : (
                     <img
-                        src="/logo/MenuBar.png"
+                        src={`${process.env.PUBLIC_URL}/logo/MenuBar.png`}
                         alt="Open"
                         className="menu-icon"
                         onClick={() => setIsOpen(true)}

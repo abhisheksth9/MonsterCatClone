@@ -45,7 +45,9 @@ export default function EmblaCarousel({ images }) {
   return (
     <>
     <div className="page-logo">
-      <img src="/logo/Monstercat.png" alt="Logo" />
+      <img 
+      src={`${process.env.PUBLIC_URL}/logo/Monstercat.png`} 
+      alt="Logo" />
     </div>
 
     <div className="embla" ref={emblaRef}>  
