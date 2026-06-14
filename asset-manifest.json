@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MonsterCatClone/static/css/main.91991094.css",
+    "main.js": "/MonsterCatClone/static/js/main.b84d31c9.js",
+    "static/js/453.1c393c9f.chunk.js": "/MonsterCatClone/static/js/453.1c393c9f.chunk.js",
+    "index.html": "/MonsterCatClone/index.html",
+    "main.91991094.css.map": "/MonsterCatClone/static/css/main.91991094.css.map",
+    "main.b84d31c9.js.map": "/MonsterCatClone/static/js/main.b84d31c9.js.map",
+    "453.1c393c9f.chunk.js.map": "/MonsterCatClone/static/js/453.1c393c9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91991094.css",
+    "static/js/main.b84d31c9.js"
+  ]
+}
