@@ -1,6 +1,6 @@
 export const songs = [
     {
-        image: "/images/After Dark.jpg",
+        image: `${process.env.PUBLIC_URL}/images/After Dark.jpg`,
         title: 'After Dark',
         artist: 'Rameses B & Veela',
         album: 'Uncaged',
@@ -8,7 +8,7 @@ export const songs = [
         color: 'rgb(125, 138, 255)'
     },
     {
-        image: "/images/Before I GO.jpg",
+        image: `${process.env.PUBLIC_URL}/images/Before I GO.jpg`,
         title: 'Before I Go',
         artist: 'Trivecta feat. Vanru',
         album: 'Instinct',
@@ -16,7 +16,7 @@ export const songs = [
         color: 'rgb(80, 165, 132)'
     },
     {
-        image: "/images/Walking Away.jpg",
+        image: `${process.env.PUBLIC_URL}/images/Walking Away.jpg`,
         title: 'Walking Away',
         artist: 'Dokho X Ra5im x Elliot Vast',
         album: 'Silk',
@@ -24,7 +24,7 @@ export const songs = [
         color: 'rgb(246, 142, 47)'
     },
     {
-        image: "/images/Mistakes.jpg",
+        image: `${process.env.PUBLIC_URL}/images/Mistakes.jpg`,
         title: 'Mistakes',
         artist: 'Oracle',
         album: 'Oracle',
@@ -34,10 +34,10 @@ export const songs = [
 ]
 
 export const icons = [
-    {icon: '/logo/Instagram.png'},
-    {icon: '/logo/TikTokk.png'},
-    {icon: '/logo/X.png'},
-    {icon: '/logo/Twitch.png'},
-    {icon: '/logo/FB.png'},
-    {icon: '/logo/Discord.png'},
-]
+    { icon: `${process.env.PUBLIC_URL}/logo/Instagram.png` },
+    { icon: `${process.env.PUBLIC_URL}/logo/TikTokk.png` },
+    { icon: `${process.env.PUBLIC_URL}/logo/X.png` },
+    { icon: `${process.env.PUBLIC_URL}/logo/Twitch.png` },
+    { icon: `${process.env.PUBLIC_URL}/logo/FB.png` },
+    { icon: `${process.env.PUBLIC_URL}/logo/Discord.png` },
+];
